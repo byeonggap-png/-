@@ -14,7 +14,7 @@ TEMPLATE_FILE = '정문업무일지_양식_260211_v2.xlsx'
 
 # 3. 사용자 입력 섹션
 st.sidebar.header("⚙️ 설정")
-sheet_url = st.sidebar.text_input("구글 시트 주소를 입력하세요", 
+sheet_url = st.sidebar.text_input("https://docs.google.com/spreadsheets/d/1TmqNym3md8wqKPG9CuVqHNjpVVnzPUBNWMlxevGLy9Q/edit?usp=drivesdk", 
                                   placeholder="https://docs.google.com/spreadsheets/d/...")
 
 # 4. 데이터 처리 함수
